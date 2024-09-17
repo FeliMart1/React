@@ -1,0 +1,35 @@
+/* Estilos para el contenedor de la lista de productos */
+.item-list-container {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para el título de bienvenida */
+.item-list-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el subtítulo de productos */
+.item-list-container h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el contenedor de la lista de ítems */
+.item-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Estilos para el contenedor del detalle del producto */
+.item-detail-container {
+    flex: 1 1 100%; /* Ocupa toda la fila */
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+

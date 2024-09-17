@@ -1,0 +1,27 @@
+
+.itemCount {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+  
+  .itemCount button {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s;
+  }
+  
+  .itemCount button:hover {
+    background-color: darken(var(--primary-color), 10%);
+  }
+  
+  .itemCount span {
+    font-size: 1.5rem;
+    color: var(--text-color);
+  }
+
