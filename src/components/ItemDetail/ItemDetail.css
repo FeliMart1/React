@@ -1,0 +1,26 @@
+.item-detail-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.item-detail-image {
+    width: 300px;
+    height: auto;
+    margin: 20px 0;
+}
+
+.item-detail-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.item-detail-price {
+    font-size: 20px;
+    color: white;
+}
+
+.item-detail-description {
+    font-size: 16px;
+    color: #666;
+}
+
